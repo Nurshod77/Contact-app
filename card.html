@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background: #000;
+        }
+        .duringOrBack {
+            /* display: none; */
+            background: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 7px;
+            width: 380px;
+            border-radius: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 10%;
+        }
+
+        .sm-check {
+            background: rgba(224, 224, 224, 0.916);
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .sm-check img {
+            width: 35px;
+        }
+
+        .duringOrBack p {
+            font-size: 14px;
+        }
+
+        #back {
+            border: none;
+            padding: 8px 35px;
+            border-radius: 7px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+        }
+
+        #during {
+            border: none;
+            padding: 8px 35px;
+            border-radius: 7px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            background: rgb(23, 23, 220);
+            color: white;
+        }
+
+        .buttonss {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            background: rgba(224, 224, 224, 0.916);
+            padding: 19px;
+        }
+        .text {
+            padding: 20px;
+            text-align: center;
+            line-height: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="duringOrBack" class="duringOrBack">
+        <div class="sm-check">
+            <img src="https://img.icons8.com/?size=100&id=23WgxOsb7qe9&format=png&color=000000" alt="">
+            <h2>
+                Kichik tekshiruv
+            </h2>
+        </div>
+            
+        <p class="text">Siz hali ism va familiyangizni kiritmadingiz. <br> Davom etish uchun ushbu maydonlarni to'ldiring.</p>
+
+        <div class="buttonss">
+            <button id="back">
+                Orqaga
+            </button>
+            
+            <button id="during">
+                Davom etish
+            </button>
+        </div>
+
+    </div>
+</body>
+</html>

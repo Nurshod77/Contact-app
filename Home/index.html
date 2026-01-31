@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <button class="yaqinlarim">Yaqinlarim.uz
+            <img src="./Frame (17).png" alt="">
+            <img class="yaq-none" src="./Frame (18).png" alt="">
+        </button>
+
+        <h2 class="kontact">Kontaktlar</h2>
+
+        <button id="img" onclick="toggleTheme()" class="dark-mode">
+            <img src="./Icons.svg" alt="">
+            Tun rejimi
+        </button>
+    </header>
+
+
+    <section class="contact-section">
+        <div class="create-contact">
+            <h2>Kontakt yaratish</h2>
+
+            <div class="card">
+                <div class="forImg">
+                    <button id="touch-btn" onclick="touch()">
+                        <img class="rasm" src="./Frame 7 (16).png" alt="">
+                    </button>
+                </div>
+
+                <div class="text-diver">
+                    <img class="user1" src="./Frame 4 (1).png" alt="">
+                    <input id="name" class="inp2" type="name" placeholder=" Ism"> <br>
+
+                    <img class="user1" src="./Frame 4 (2).png" alt="">
+                    <input id="last" class="inp2" type="text" placeholder=" Familya"> <br>
+
+                    <img class="user1" src="./Frame 4 (3).png" alt="">
+                    <input id="phone" class="inp2" type="text" placeholder=" Telefon raqam"> <br>
+
+                    <img class="user1" src="./Frame 4 (4).png" alt="">
+                    <input class="inp2" type="text" placeholder=" Elektron pochta"> <br>
+
+                    <img class="user1" src="./Frame 4 (5).png" alt="">
+                    <input class="inp2" type="text" placeholder=" Qo'shimcha  ma'lumot"> <br>
+
+                    <button onclick="addContact()" class="enter-btn">
+                        <img src="./Frame 4 (6).png" alt="">
+                        Qo'shish
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contacts">
+            <h2>Kontaktlar</h2>
+
+
+            <div class="big-diver">
+
+                <div class="welcome-div">
+                    <h3 id="welcome"></h3>
+                    <img src="./Frame 13.png" alt="">
+                </div>
+
+                <div class="search-bar">
+                    <img src="./second name.png" alt="">
+                    <input type="text" id="search" placeholder="Kontakt qidirish">
+                    <div id="list"></div>
+                </div>
+                
+                <div id="contactList"></div>     
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+.forImg img {
+    width: 90px;
+    margin-left: 30%;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.contact-img {
+    width: 350px;
+    position: relative;
+    top: 140px;
+}
+
+.contact-section {
+    padding: 30px 46px;
+    display: flex;
+    gap: 30px;
+}
+.contact-section h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.card {
+    border-radius: 10px;
+    width: 330px;
+    margin-top: 7%;
+}
+.forImg {
+    background: #394867;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 140px;
+    padding: 15px;
+    position: relative;
+}
+.rasm {
+    width: 60px;
+    margin-left: 40px;
+}
+.text-diver {
+    background: #F6F9FA;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.user1 {
+    position: relative;
+    top: 26px;
+    z-index: 100;
+    width: 30px;
+}
+.inp2 {
+    border: 1.3px solid #394867;
+    border-radius: 6px;
+    background: transparent;
+    padding: 10px 10px 10px 39px;   
+    color: #394867;
+    position: relative;
+    width: 300px;
+    margin-left: -8px;
+}
+.enter-btn {
+    border: none;
+    background: #394867;
+    color: white;
+    padding: 9px;
+    width: 300px;
+    margin-left: -8px;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: flex;
+    gap: 80px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.enter-btn img {
+    width: 29px;
+}
+.contacts h2 {
+    padding-left: 250%;
+}
